@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import time
 
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://phani9133:Phani%409133@phanicluster1.znlidni.mongodb.net/")
 db = client["certificate_db"]
 
 admin_col = db["admins"]
